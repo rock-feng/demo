@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6678ee00-59b9-4acf-aca8-0ad4276e91b6" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1mYe0V4yw0PtWKmerHc1dv6711o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/登录界面/html" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fengwen\Desktop\练习\登录界面\html" />
+      <recent name="C:\Users\fengwen\Desktop\练习\dongcheng_login\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fengwen\Desktop\练习\登录界面\images" />
+      <recent name="C:\Users\fengwen\Desktop\练习\登录界面\html" />
+      <recent name="C:\Users\fengwen\Desktop\练习\dongcheng_login\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6678ee00-59b9-4acf-aca8-0ad4276e91b6" name="默认更改列表" comment="" />
+      <created>1609674729532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609674729532</updated>
+      <workItem from="1609674733219" duration="1009000" />
+      <workItem from="1609725349373" duration="4225000" />
+      <workItem from="1609730018272" duration="5037000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609726024043">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="474" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1609726024043" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609726326503">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1609726326503" />
+    <state x="439" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1609730018347">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-1262" y="344" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609725348439" />
+    <state x="439" y="225" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1609730018347" />
+  </component>
+</project>
