@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据可视化demo</title>
+    <link href="../styles/common.css" rel="stylesheet">
+    <script src="../scripts/Plugin/jquery-3.3.1.min.js"></script>
+    <script src="../scripts/Plugin/echarts.min.js"></script>
+    <script src="../scripts/Plugin/bmap.min.js"></script>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=IIvPGPfmUGZ8whAK7QDuySmlPHOIicKn"></script>
+    <script src="../scripts/common.js"></script>
+    <script src="../scripts/new index.js"></script>
+    <script src="../scripts/Plugin/laydate/laydate.js"></script>
+</head>
+<body>
+<!--顶部-->
+<header class="header left">
+    <div class="left nav">
+        <ul>
+            <li class="nav_active"><i class="nav_1"></i><a href="new trend.html">交通事故分析</a> </li>
+            <li><i class="nav_2"></i><a href="chronic.html">交通流量分析</a> </li>
+            <li><i class="nav_4"></i><a href="new chronic.html">交通违法分析</a> </li>
+        </ul>
+    </div>
+    <div class="header_center left" style="position:relative">
+
+        <h2><strong>多源异构交通大数据可视化平台</strong></h2>
+
+    </div>
+
+</header>
+<!--内容部分-->
+<div class="con left">
+
+    <!--统计分析图-->
+    <div class="div_any">
+        <div class="left div_any01" style="height: 600px;width: 400px">
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title"><img src="../images/title_1.png">事故信息发布</div>
+                <div class="table_p">
+                    <table>
+                        <thead><tr>
+                            <th>序号</th>
+                            <th>内容</th>
+                            <th>发布时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr><td>1</td><td>9月21日轻伤：5人次</td><td>2018-11-05</td></tr>
+                        <tr><td>2</td><td>9月20日死亡：2人次</td><td>2018-11-03</td></tr>
+                        <tr><td>3</td><td>9月19日轻伤：6人次</td><td>2018-11-01</td></tr>
+                        <tr><td>4</td><td>9月18日重伤: 3人次</td><td>2018-10-29</td></tr>
+                        <tr><td>5</td><td>9月17日轻伤：7人次</td><td>2018-10-27</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title" style="z-index: 1000"><img src="../images/title_1.png">报警细类分布</div>
+                <p id="pieChart2" style="height: 200px"></p>
+            </div>
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title" style="z-index: 1000"><img src="../images/title_1.png">事故原因分布</div>
+                <p id="histogramChart" style="height: 200px"></p>
+            </div>
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title" style="z-index: 1000"><img src="../images/title_1.png">事故辖区分布</div>
+                <p id="pieChart3" style="height: 200px"></p>
+            </div>
+        </div>
+        <div class="div_any02 left ">
+
+                <div class="div_any_child" style="width: 970px;height: 175px;">
+                    <p id="pieChart1" style="height: 175px;width: 970px"></p>
+                </div>
+
+            <div class="div_any_child " style="width: 970px;height: 665px">
+                <div class="div_any_title any_title_width"><img src="../images/title_0.png">唐山市地图 </div>
+                <div id="mapChart" style="width:97.5%;height:95%;display: inline-block;padding-left: 1.25%;padding-top:2.2%"></div>
+            </div>
+
+        </div>
+        <div class="right div_any01" style="height: 600px;width: 400px">
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title" style="z-index: 1000"><img src="../images/title_1.png">事故排名分布</div>
+                 <p id="histogramChart2" style="height: 200px"></p>
+            </div>
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title" style="z-index: 1000"><img src="../images/title_1.png">车辆类型分布</div>
+                 <p id="pieChart5" style="height: 200px"></p>
+            </div>
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title"><img src="../images/title_1.png">司机性别分布</div>
+                <p id="pieChart4" style="height: 200px"></p>
+            </div>
+            <div class="div_any_child" style="width: 400px;height: 200px">
+                <div class="div_any_title" style="z-index: 1000"><img src="../images/title_1.png">事故日期分布</div>
+                 <p id="histogramChart3" style="height: 200px"></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
